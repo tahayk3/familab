@@ -6,7 +6,7 @@ import miImagen from '../welcome/logo.png';
 
 const navigation = [
   { name: 'Inicio', href: '#', current: true },
-  { name: 'Ubicación', href: 'https://www.twitch.tv/grekko_', current: false },
+  { name: 'Ubicación', href: 'https://www.twitch.tv/nissaxter', current: false },
   { name: '¿Quiénes somos?', href: '#', current: false },
   { name: 'Contáctenos', href: '#', current: false },
 ]

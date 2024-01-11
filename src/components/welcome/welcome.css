@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    align-items: center;
+    margin: 55px;
+}
+.titulo{
+    font-size: 5rem;
+}
+.parrafo{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imagen{
+    margin-top: 30px;
+    width: 40%;
+    border-radius: 15px;
+}
+
