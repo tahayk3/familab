@@ -1,17 +1,44 @@
 .container{
     display: flex;
+    justify-content: center;
     align-items: center;
-    margin: 55px;
+    width: 100%;
 }
 .titulo{
     font-size: 5rem;
 }
 .parrafo{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    text-align:justify;
 }
 .imagen{
     margin-top: 30px;
+    margin-left: 90px;
     width: 40%;
     border-radius: 15px;
+}
+
+@media (min-width: 100px) and (max-width: 550px) {
+    .container{
+       width: 100%;
+       background-color: brown;
+       display: contents;
+    }
+    .titulo{
+        font-size: 2rem;
+        padding: 15px;
+        margin: 15px;
+    }
+    .parrafo{
+        font-size: 0.9rem;
+        padding: 15px;
+        margin: 15px;
+    }
+    .imagen{
+        width: 100%;
+        margin-left: 0px;
+    }
+
 }
 
