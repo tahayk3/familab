@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/familab/build/static/css/main.db89ace9.css",
-    "main.js": "/familab/build/static/js/main.825e7d3b.js",
+    "main.css": "/familab/build/static/css/main.92498d45.css",
+    "main.js": "/familab/build/static/js/main.4b771bd4.js",
     "static/js/787.43d94582.chunk.js": "/familab/build/static/js/787.43d94582.chunk.js",
     "static/media/logo.png": "/familab/build/static/media/logo.05e78f1fd9bac0a7353c.png",
     "static/media/welcome.jpg": "/familab/build/static/media/welcome.bb70cd4ae818db4286f3.jpg",
     "index.html": "/familab/build/index.html",
-    "main.db89ace9.css.map": "/familab/build/static/css/main.db89ace9.css.map",
-    "main.825e7d3b.js.map": "/familab/build/static/js/main.825e7d3b.js.map",
+    "main.92498d45.css.map": "/familab/build/static/css/main.92498d45.css.map",
+    "main.4b771bd4.js.map": "/familab/build/static/js/main.4b771bd4.js.map",
     "787.43d94582.chunk.js.map": "/familab/build/static/js/787.43d94582.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db89ace9.css",
-    "static/js/main.825e7d3b.js"
+    "static/css/main.92498d45.css",
+    "static/js/main.4b771bd4.js"
   ]
 }

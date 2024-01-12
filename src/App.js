@@ -1,8 +1,7 @@
 import React from 'react';
 import NavbarDefault from './components/NavbarDefault/NavbarDefault';
 import Welcome from './components/welcome/welcome';
-import Card from './components/card/card';
-
+import Listlearn from './components/listlearn/listlearn';
 
 const App = () => {
   return (
