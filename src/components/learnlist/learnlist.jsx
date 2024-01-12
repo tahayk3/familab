@@ -1,4 +1,4 @@
-import './listlearn.css';
+import './learnlist.css';
 import {datos} from './data';
 import React from 'react';
 

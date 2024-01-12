@@ -15,9 +15,9 @@ export default function Welcome(){
           </Flip>
         </div>
 
-        <Roll >
+        <Flip left>
           <img className='imagen' src={foto} alt="" />
-        </Roll>
+        </Flip>
 
       </div>
     );
