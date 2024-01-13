@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Ubicación', href: 'https://www.twitch.tv/nissaxter', current: false },
   { name: '¿Quiénes somos?', href: '#', current: false },
   { name: 'Contáctenos', href: '#', current: false },
+  { name: 'Preguntas frecuentes', href: '#', current: false },
 ]
 
 function classNames(...classes) {
