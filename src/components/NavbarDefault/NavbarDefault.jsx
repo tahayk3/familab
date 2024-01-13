@@ -5,11 +5,11 @@ import './NavbarDefault.css';
 
 
 const navigation = [
-  { name: 'Inicio', href: '#', current: true },
+  { name: 'Inicio', href: '/familab/build', current: true },
   { name: 'Ubicación', href: 'https://www.twitch.tv/nissaxter', current: false },
   { name: '¿Quiénes somos?', href: '#', current: false },
   { name: 'Contáctenos', href: '#', current: false },
-  { name: 'Preguntas frecuentes', href: '#', current: false },
+  { name: 'Preguntas frecuentes', href: '/preguntas-frecuentes', current: false },
 ]
 
 function classNames(...classes) {
