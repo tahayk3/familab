@@ -6,11 +6,11 @@ import { Link } from 'react-router-dom';
 
 
 const navigation = [
-  { name: 'Inicio', href: '/familab/build/', current: true },
-  { name: 'Ubicación', href: '/ubicacion', current: false },
-  { name: '¿Quiénes somos?', href: '/sobre-nosotros', current: false },
-  { name: 'Contáctenos', href: '/contacto', current: false },
-  { name: 'Preguntas frecuentes', href: '/preguntas-frecuentes', current: false },
+  { name: 'Inicio', path: '/familab/build/', current: true },
+  { name: 'Ubicación', path: '/ubicacion', current: false },
+  { name: '¿Quiénes somos?', path: '/sobre-nosotros', current: false },
+  { name: 'Contáctenos', path: '/contacto', current: false },
+  { name: 'Preguntas frecuentes', path: '/preguntas-frecuentes', current: false },
 ]
 
 function classNames(...classes) {
