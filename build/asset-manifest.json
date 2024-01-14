@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/familab/build/static/css/main.fb492b68.css",
+    "main.js": "/familab/build/static/js/main.3194df46.js",
+    "static/js/787.43d94582.chunk.js": "/familab/build/static/js/787.43d94582.chunk.js",
+    "static/media/6.png": "/familab/build/static/media/6.d047bafc6d74f1a10226.png",
+    "static/media/img.png": "/familab/build/static/media/img.3aaab1a5aac8a08cae6b.png",
+    "static/media/logo.png": "/familab/build/static/media/logo.05e78f1fd9bac0a7353c.png",
+    "static/media/5.png": "/familab/build/static/media/5.5e4ca6fdb077dbe67308.png",
+    "static/media/1.jpg": "/familab/build/static/media/1.5e4595476122d6f0f26c.jpg",
+    "static/media/gif.gif": "/familab/build/static/media/gif.9a94a1321bdea652c19b.gif",
+    "static/media/2.jpg": "/familab/build/static/media/2.593e83bc5019da5ccf8c.jpg",
+    "static/media/welcome.jpg": "/familab/build/static/media/welcome.bb70cd4ae818db4286f3.jpg",
+    "static/media/imagen.png": "/familab/build/static/media/imagen.3a76acc6f418f9f442bb.png",
+    "static/media/4.png": "/familab/build/static/media/4.cee1fe8f1574ea1b0115.png",
+    "static/media/3.jpg": "/familab/build/static/media/3.f860bc41b9dcfea7df6f.jpg",
+    "static/media/7.jpg": "/familab/build/static/media/7.1cb45c30c0fb430d3a9a.jpg",
+    "index.html": "/familab/build/index.html",
+    "main.fb492b68.css.map": "/familab/build/static/css/main.fb492b68.css.map",
+    "main.3194df46.js.map": "/familab/build/static/js/main.3194df46.js.map",
+    "787.43d94582.chunk.js.map": "/familab/build/static/js/787.43d94582.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb492b68.css",
+    "static/js/main.3194df46.js"
+  ]
+}
