@@ -14,13 +14,43 @@ import Fade from "react-reveal";
 
 const App = () => {
   return (
+    <Router>
     <Routes>
-      <Route path="/familab/build/*" element={ [<NavbarDefault/>, <Welcome/>,<Learnlist/>,<Fade right><Gallery/></Fade>, <Footer/> ]  } />
-      <Route path="/ubicacion" element={ [<NavbarDefault/>, <Location/>, <Footer/>] } />
-      <Route path="/sobre-nosotros" element={  [<NavbarDefault/>, <Information/>, <Footer/>] } />
-      <Route path="/contacto" element={ [<NavbarDefault/>, <Contact/>, <Footer/>] } />
-      <Route path="/preguntas-frecuentes" element={  [<NavbarDefault/>, <Frequentlyasked/>, <Footer/>] } />
+      {/* Redirigir a la ruta raíz por defecto */}
+      <Route
+        path="/familab/build/*"
+        element={<Navigate to="/familab/build" />}
+      />
+
+      {/* Resto del código de enrutamiento */}
+      <Route
+        path="/familab/build"
+        element={[
+          <NavbarDefault />,
+          <Welcome />,
+          <Learnlist />,
+          <Fade right><Gallery/></Fade>,
+          <Footer />
+        ]}
+      />
+      <Route
+        path="/ubicacion"
+        element={[<NavbarDefault />, <Location />, <Footer />]}
+      />
+      <Route
+        path="/sobre-nosotros"
+        element={[<NavbarDefault />, <Information />, <Footer />]}
+      />
+      <Route
+        path="/contacto"
+        element={[<NavbarDefault />, <Contact />, <Footer />]}
+      />
+      <Route
+        path="/preguntas-frecuentes"
+        element={[<NavbarDefault />, <Frequentlyasked />, <Footer />]}
+      />
     </Routes>
+  </Router>
 
   );
 };
