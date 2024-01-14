@@ -2,7 +2,7 @@
   "name": "familab",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tahayk3.github.io/familab/build",
+  "homepage": "https://tahayk3.github.io/familab/build/",
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",

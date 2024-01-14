@@ -20,7 +20,6 @@ const App = () => {
       <Route path="/sobre-nosotros" element={  [<NavbarDefault/>, <Information/>, <Footer/>] } />
       <Route path="/contacto" element={ [<NavbarDefault/>, <Contact/>, <Footer/>] } />
       <Route path="/preguntas-frecuentes" element={  [<NavbarDefault/>, <Frequentlyasked/>, <Footer/>] } />
-     
     </Routes>
 
   );
