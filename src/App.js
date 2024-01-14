@@ -17,7 +17,7 @@ const App = () => {
   return (
     <Routes >
       <Route path="/" element={ [<NavbarDefault/>, <Welcome/>,<Learnlist/>,<Fade right><Gallery/></Fade>, <Footer/> ]  } />
-      <Route path="/ubicacion" element={ [<NavbarDefault/>, <Location/>, <Footer/>] } />
+      <Route path="ubicacion" element={ [<NavbarDefault/>, <Location/>, <Footer/>] } />
 
     </Routes>
 
