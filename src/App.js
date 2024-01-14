@@ -15,9 +15,9 @@ import Fade from "react-reveal";
 const App = () => {
   return (
 
-      <Routes basename="/familab">
+      <Routes>
         <Route
-          path="/build"
+          path="/"
           element={[
             <NavbarDefault />,
             <Welcome />,
