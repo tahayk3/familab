@@ -16,7 +16,7 @@ import Fade from "react-reveal";
 const App = () => {
   return (
     <Routes >
-      <Route path="/" element={ [<NavbarDefault/>, <Welcome/>,<Learnlist/>,<Fade right><Gallery/></Fade>, <Footer/> ]  } />
+      <Route path="/familab/build/" element={ [<NavbarDefault/>, <Welcome/>,<Learnlist/>,<Fade right><Gallery/></Fade>, <Footer/> ]  } />
       <Route path="ubicacion" element={ [<NavbarDefault/>, <Location/>, <Footer/>] } />
 
     </Routes>
