@@ -14,7 +14,8 @@ import Fade from "react-reveal";
 
 const App = () => {
   return (
-    <Routes>
+    <Router>
+      <Routes>
         {/* Redirigir a la ruta raíz por defecto */}
         <Route path="/familab/build/*" element={<Navigate to="/familab/build" />} />
 
@@ -33,6 +34,7 @@ const App = () => {
         <Route path="/contacto" element={[<NavbarDefault />, <Contact />, <Footer />]} />
         <Route path="/preguntas-frecuentes" element={[<NavbarDefault />, <Frequentlyasked />, <Footer />]} />
       </Routes>
+    </Router>
 
 
   );
