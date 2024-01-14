@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 const navigation = [
-  { name: 'Inicio', href: '/familab/build', current: true },
+  { name: 'Inicio', href: '/', current: true },
   { name: 'Ubicación', href: '/ubicacion', current: false },
   { name: '¿Quiénes somos?', href: '/sobre-nosotros', current: false },
   { name: 'Contáctenos', href: '/contacto', current: false },
