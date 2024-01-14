@@ -1,7 +1,7 @@
 import './learnlist.css';
 import {datos} from './data';
 import React from 'react';
-
+import Fade from "react-reveal";
 
 export default function ListElements(){
 
@@ -12,10 +12,13 @@ export default function ListElements(){
                     {datos.map(data =>
                     (
                         <li key={data.id}>
+                            
                             <div className="flip-card">
                                 <div className="flip-card-inner">
                                     <div className="flip-card-front">
+                                    <Fade right>
                                         <p className='signo'>?</p>
+                                    </Fade>
                                     </div>
                                     <div className="flip-card-back">
                                     <p>{data.texto}</p>
