@@ -79,12 +79,11 @@ export default function NavbarDefault() {
                   aria-current={item.current ? 'page' : undefined}
                 >
                   <Link
-key={item.name}
-to={item.href}
+                  to={item.href}
 
->
-{item.name}
-</Link>
+                  >
+                  {item.name}
+                  </Link>
                 </Disclosure.Button>
               ))}
             </div>
