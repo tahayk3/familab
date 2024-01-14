@@ -69,22 +69,16 @@ export default function NavbarDefault() {
             <div className="space-y-1 px-2 pb-3 pt-2">
               {navigation.map((item) => (
 
-                  <Disclosure.Button
-                  key={item.name}
 
+                  <Link
+                  to={item.path}
                   className={classNames(
                     item.current ? 'bg-[#ff5325] text-white' : 'text-white-100 hover:bg-[#ff5325] hover:text-white',
                     'block rounded-md px-3 py-2 text-base font-medium'
                   )}
-                  aria-current={item.current ? 'page' : undefined}
-                >
-                  <Link
-                  to={item.path}
-
                   >
                   {item.name}
                   </Link>
-                </Disclosure.Button>
               ))}
             </div>
           </Disclosure.Panel>
