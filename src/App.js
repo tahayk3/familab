@@ -17,7 +17,7 @@ const App = () => {
 
       <Routes>
         <Route
-          path="/"
+          path="/build"
           element={[
             <NavbarDefault />,
             <Welcome />,
