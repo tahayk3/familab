@@ -6,7 +6,7 @@ import Learnlist from './components/learnlist/learnlist';
 import Gallery from './components/gallery/gallery';
 import Footer from './components/footer/footer';
 import Frequentlyasked from './components/Frequentlyasked/Frequentlyasked';
-import { HashRouter  as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 import Location from './components/location/location';
 import Information from './components/information/information';
 import Contact from './components/contact/contact';
@@ -14,11 +14,8 @@ import Fade from "react-reveal";
 
 const App = () => {
   return (
-    <Router basename="/familab">
-      <Routes>
-      
-       
 
+      <Routes basename="/familab">
         <Route
           path="/build"
           element={[
@@ -34,7 +31,7 @@ const App = () => {
         <Route path="/contacto" element={[<NavbarDefault />, <Contact />, <Footer />]} />
         <Route path="/preguntas-frecuentes" element={[<NavbarDefault />, <Frequentlyasked />, <Footer />]} />
       </Routes>
-    </Router>
+
 
 
   );
