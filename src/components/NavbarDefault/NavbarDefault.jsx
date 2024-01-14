@@ -48,6 +48,7 @@ export default function NavbarDefault() {
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
                        <Link
+                       key={item.name}
                        to={item.href}
                        className={classNames(
                          item.current ? 'bg-[#ff5325] text-white' : 'text-white-100 hover:bg-[#ff5325] hover:text-white',
@@ -70,7 +71,6 @@ export default function NavbarDefault() {
 
                   <Disclosure.Button
                   key={item.name}
-                  to={item.href}
 
                   className={classNames(
                     item.current ? 'bg-[#ff5325] text-white' : 'text-white-100 hover:bg-[#ff5325] hover:text-white',
@@ -78,7 +78,13 @@ export default function NavbarDefault() {
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
-                  {item.name}
+                  <Link
+key={item.name}
+to={item.href}
+
+>
+{item.name}
+</Link>
                 </Disclosure.Button>
               ))}
             </div>
