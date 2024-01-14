@@ -18,7 +18,9 @@ const App = () => {
     <Routes >
       <Route basename="/familab/build" path="/familab/build/" element={ [<NavbarDefault/>, <Welcome/>,<Learnlist/>,<Fade right><Gallery/></Fade>, <Footer/> ]  } />
       <Route basename="/familab/build" path="/ubicacion" element={ [<NavbarDefault/>, <Location/>, <Footer/>] } />
-
+      <Route basename="/familab/build" path="sobre-nosotros" element={ <Welcome /> } />
+      <Route path="/familab/build/contacto" element={ <Learnlist /> } />
+     
     </Routes>
 
   );
