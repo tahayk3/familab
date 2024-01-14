@@ -14,13 +14,13 @@ import Fade from "react-reveal";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/familab">
       <Routes>
-        {/* Redirigir a la ruta raíz por defecto */}
-        <Route path="/familab/build/*" element={<Navigate to="/familab/build" />} />
+      
+       
 
         <Route
-          path="/familab/build"
+          path="/build"
           element={[
             <NavbarDefault />,
             <Welcome />,
