@@ -18,9 +18,7 @@ const App = () => {
     <Routes >
       <Route path="/" element={ [<NavbarDefault/>, <Welcome/>,<Learnlist/>,<Fade right><Gallery/></Fade>, <Footer/> ]  } />
       <Route path="/ubicacion" element={ [<NavbarDefault/>, <Location/>, <Footer/>] } />
-      <Route path="sobre-nosotros" element={ [<NavbarDefault/>, <Information/>, <Footer/>] } />
-      <Route path="/contacto"  element={ [<NavbarDefault/>, <Contact/>, <Footer/>] } />
-      <Route path="/preguntas-frecuentes" element={ [<NavbarDefault/>, <Frequentlyasked/>, <Footer/>] } />
+
     </Routes>
 
   );
