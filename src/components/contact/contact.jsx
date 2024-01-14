@@ -18,7 +18,6 @@ function Contact(){
       });
     e.target.reset()
   };
-
   const people = [
     {
       name: 'Facebook',
