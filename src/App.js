@@ -10,7 +10,6 @@ import { Routes, Route, Router } from "react-router-dom";
 import Location from './components/location/location';
 import Information from './components/information/information';
 import Contact from './components/contact/contact';
-
 import Fade from "react-reveal";
 
 const App = () => {
