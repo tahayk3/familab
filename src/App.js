@@ -15,11 +15,12 @@ import Fade from "react-reveal";
 
 const App = () => {
   return (
-    <Routes >
-      <Route basename="/familab/build" path="/familab/build/" element={ [<NavbarDefault/>, <Welcome/>,<Learnlist/>,<Fade right><Gallery/></Fade>, <Footer/> ]  } />
-      <Route basename="/familab/build" path="/ubicacion" element={ [<NavbarDefault/>, <Location/>, <Footer/>] } />
-      <Route basename="/familab/build" path="/sobre-nosotros" element={ <Welcome /> } />
-      <Route path="/familab/build/contacto" element={ <Learnlist /> } />
+    <Routes basename="/familab/build">
+      <Route path="/familab/build/" element={ [<NavbarDefault/>, <Welcome/>,<Learnlist/>,<Fade right><Gallery/></Fade>, <Footer/> ]  } />
+      <Route path="/ubicacion" element={ [<NavbarDefault/>, <Location/>, <Footer/>] } />
+      <Route path="/sobre-nosotros" element={ <Welcome /> } />
+      <Route path="/contacto" element={ <Learnlist /> } />
+      <Route path="/preguntas-frecuentes" element={ <Learnlist /> } />
      
     </Routes>
 
