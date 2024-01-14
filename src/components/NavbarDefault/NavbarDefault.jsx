@@ -5,7 +5,7 @@ import './NavbarDefault.css';
 
 
 const navigation = [
-  { name: 'Inicio', href: '/', current: true },
+  { name: 'Inicio', href: '/familab/build', current: true },
   { name: 'Ubicación', href: '/ubicacion', current: false },
   { name: '¿Quiénes somos?', href: '/sobre-nosotros', current: false },
   { name: 'Contáctenos', href: '/contacto', current: false },
