@@ -5,8 +5,7 @@ import './NavbarDefault.css';
 
 
 const navigation = [
-  { name: 'Inicio', href: '/', current: true },
-  { name: 'Ubicación', href: '/ubicacion', current: false },
+  { name: 'Inicio', href: '/familab/build/', current: true },
 
 ]
 
