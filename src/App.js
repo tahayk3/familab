@@ -1,5 +1,3 @@
-import react, {useState} from 'react';
-
 import NavbarDefault from './components/NavbarDefault/NavbarDefault';
 import Welcome from './components/welcome/welcome';
 import Learnlist from './components/learnlist/learnlist';
