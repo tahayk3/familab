@@ -46,19 +46,11 @@ export default function NavbarDefault() {
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
-                       <Link
-                       key={item.name}
-                       to={item.href}
-                       className={classNames(
-                         item.current ? 'bg-[#ff5325] text-white' : 'text-white-100 hover:bg-[#ff5325] hover:text-white',
-                         'rounded-md px-3 py-2 text-sm font-medium'
-                       )}
-                       aria-current={item.current ? 'page' : undefined}
-                     >
-                       {item.name}
-                     </Link>
-                    ))}
+                  {navigation.map((item) => (
+                    <Link key={item.name} to={item.path}>
+                    {item.name}
+                    </Link>
+                  ))}
                   </div>
                 </div>
               </div>
@@ -67,25 +59,11 @@ export default function NavbarDefault() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => (
-
-                  <Disclosure.Button
-                  key={item.name}
-
-                  className={classNames(
-                    item.current ? 'bg-[#ff5325] text-white' : 'text-white-100 hover:bg-[#ff5325] hover:text-white',
-                    'block rounded-md px-3 py-2 text-base font-medium'
-                  )}
-                  aria-current={item.current ? 'page' : undefined}
-                >
-                  <Link
-                  to={item.href}
-
-                  >
-                  {item.name}
-                  </Link>
-                </Disclosure.Button>
-              ))}
+            {navigation.map((item) => (
+                    <Link key={item.name} to={item.path}>
+                    {item.name}
+                    </Link>
+                  ))}
             </div>
           </Disclosure.Panel>
         </>
