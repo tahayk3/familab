@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 const navigation = [
-  { name: 'Inicio', path: '/build/', current: true },
+  { name: 'Inicio', path: '/build', current: true },
   { name: 'Ubicación', path: '/ubicacion', current: false },
   { name: '¿Quiénes somos?', path: '/sobre-nosotros', current: false },
   { name: 'Contáctenos', path: '/contacto', current: false },
