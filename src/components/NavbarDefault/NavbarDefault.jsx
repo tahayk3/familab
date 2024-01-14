@@ -2,6 +2,7 @@ import { Disclosure  } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
 import miImagen from '../welcome/logo.png'; 
 import './NavbarDefault.css';
+import { Link } from 'react-router-dom';
 
 
 const navigation = [
@@ -47,17 +48,16 @@ export default function NavbarDefault() {
                 <div className="hidden sm:ml-6 sm:block">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <a
-                        key={item.name}
-                        href={item.href}
-                        className={classNames(
-                          item.current ? 'bg-[#ff5325] text-white' : 'text-white-100 hover:bg-[#ff5325] hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
-                        )}
-                        aria-current={item.current ? 'page' : undefined}
-                      >
-                        {item.name}
-                      </a>
+                       <Link
+                       to={item.href}
+                       className={classNames(
+                         item.current ? 'bg-[#ff5325] text-white' : 'text-white-100 hover:bg-[#ff5325] hover:text-white',
+                         'rounded-md px-3 py-2 text-sm font-medium'
+                       )}
+                       aria-current={item.current ? 'page' : undefined}
+                     >
+                       {item.name}
+                     </Link>
                     ))}
                   </div>
                 </div>
