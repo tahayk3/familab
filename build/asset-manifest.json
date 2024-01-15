@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/familab/build/static/css/main.1f10b0c7.css",
-    "main.js": "/familab/build/static/js/main.f757884c.js",
+    "main.css": "/familab/build/static/css/main.5d07d485.css",
+    "main.js": "/familab/build/static/js/main.6347fa7d.js",
     "static/js/787.43d94582.chunk.js": "/familab/build/static/js/787.43d94582.chunk.js",
     "static/media/6.png": "/familab/build/static/media/6.d047bafc6d74f1a10226.png",
     "static/media/img.png": "/familab/build/static/media/img.3aaab1a5aac8a08cae6b.png",
@@ -16,12 +16,12 @@
     "static/media/3.jpg": "/familab/build/static/media/3.f860bc41b9dcfea7df6f.jpg",
     "static/media/7.jpg": "/familab/build/static/media/7.1cb45c30c0fb430d3a9a.jpg",
     "index.html": "/familab/build/index.html",
-    "main.1f10b0c7.css.map": "/familab/build/static/css/main.1f10b0c7.css.map",
-    "main.f757884c.js.map": "/familab/build/static/js/main.f757884c.js.map",
+    "main.5d07d485.css.map": "/familab/build/static/css/main.5d07d485.css.map",
+    "main.6347fa7d.js.map": "/familab/build/static/js/main.6347fa7d.js.map",
     "787.43d94582.chunk.js.map": "/familab/build/static/js/787.43d94582.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f10b0c7.css",
-    "static/js/main.f757884c.js"
+    "static/css/main.5d07d485.css",
+    "static/js/main.6347fa7d.js"
   ]
 }
