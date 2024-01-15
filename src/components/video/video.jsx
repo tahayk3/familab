@@ -1,5 +1,4 @@
-import react from "react";
-import video from './video.mp4';
+
 import img1 from './img1.png';
 import img2 from './img2.png';
 import './video.css';
@@ -12,12 +11,7 @@ export default function Video(){
             </h3>
             <div className="container-video">
                 <img className="img-video" src={img1} alt="" />
-
-                <video className="video-video" autoplay="autoplay" loop="loop" controls="controls" muted="true">
-                    <source src={video} type="video/mp4" />
-                    Tu navegador no soporta este tipo de video
-                </video>
-
+                <iframe width="394" height="700" src="https://www.youtube.com/embed/D8rrlG7uiz8?autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <img className="img-video" src={img2} alt="" />
             </div>
         </div>
