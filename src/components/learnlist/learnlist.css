@@ -4,18 +4,14 @@
     margin-bottom: 100px;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(
-  90deg,
-  hsl(188deg 100% 38%) 4%,
-  hsl(194deg 44% 80%) 50%,
-  hsl(0deg 0% 100%) 87%
-);
+    background-color: #ff5325;
+
 }
 
 .title{
     margin: 50px;
     font-size: 2.5rem;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align:center;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -60,7 +56,7 @@
     position: absolute;
     backface-visibility: hidden; 
     border: solid 1px black;
-    border-radius: 15px;
+    border-radius: 0px 25px 0px 25px;
   }
   
   .flip-card-front {
