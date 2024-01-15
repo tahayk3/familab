@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="mr-12 hidden lg:block text-white">
           <span>Síguenos en redes sociales:</span>
         </div>
-        {/* <!-- Social network icons container --> */}
+        {/* <!-- Redes sociales --> */}
         <div className="flex justify-center">  
 
         <a className="mr-6 text-neutral-600 dark:text-neutral-200" href='https://www.tiktok.com/@escuela_familab'>
