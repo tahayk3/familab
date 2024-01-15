@@ -1,12 +1,12 @@
 import React from 'react';
-
+import img from '../welcome/logo.png';
 export default function Footer() {
   return (
     <footer
-      className="bg-neutral-100 text-center text-neutral-600 dark:bg-[#00a5c0] dark:text-neutral-200 lg:text-left margin-top: 150px">
+      className="bg-[#00a5c0] text-center text-neutral-600 dark:bg-[#00a5c0] dark:text-neutral-200 lg:text-left margin-top: 150px">
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
-        <div className="mr-12 hidden lg:block">
+        <div className="mr-12 hidden lg:block text-white">
           <span>Síguenos en redes sociales:</span>
         </div>
         {/* <!-- Social network icons container --> */}
@@ -37,9 +37,6 @@ export default function Footer() {
                 d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
             </svg>
           </a>
-
-          
-         
         </div>
       </div>
 
@@ -50,17 +47,10 @@ export default function Footer() {
           <div className="">
             <h6
               className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="currentColor"
-                className="mr-3 h-4 w-4">
-                <path
-                  d="M12.378 1.602a.75.75 0 00-.756 0L3 6.632l9 5.25 9-5.25-8.622-5.03zM21.75 7.93l-9 5.25v9l8.628-5.032a.75.75 0 00.372-.648V7.93zM11.25 22.18v-9l-9-5.25v8.57a.75.75 0 00.372.648l8.628 5.033z" />
-              </svg>
+              <img  className="mr-3 h-10 w-10" src={img} alt="" />
              Familab
             </h6>
-            <p>
+            <p className="text-white">
             ¡Transforma tu futuro en un año! En la Escuela de Laboratorio Clínico Familab
             Avalados por el MSPAS
             </p>
@@ -72,19 +62,19 @@ export default function Footer() {
               RECUERDA
             </h6>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a className="text-white"
               >¡EN TAN SOLO UN AÑO!</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a className="text-white"
               >Avalado por el Ministerio de Salud pública</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a className="text-white"
               >Clases impartidas por apasionados  químicos biólogos  </a>
             </p>
             <p>
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a className="text-white"
               >Experiencia educativa respaldada por más de 30 años en laboratorio clínico</a>
             </p>
           </div>
@@ -95,19 +85,19 @@ export default function Footer() {
               Inicio
             </h6>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a className="text-white"
               >Ubicación</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a className="text-white"
               >¿Quiénes somos?</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a className="text-white"
               >Contáctenos</a>
             </p>
             <p>
-              <a className="text-neutral-600 dark:text-neutral-200"
+              <a className="text-white"
               >Preguntas frecuentes</a>
             </p>
           </div>
@@ -117,7 +107,7 @@ export default function Footer() {
               className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
               Contacto
             </h6>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center text-white md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -130,7 +120,7 @@ export default function Footer() {
               </svg>
               6 avenida 0-38 zona 9, La Floresta, Quetzaltenango
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center text-white md:justify-start">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -149,12 +139,8 @@ export default function Footer() {
       </div>
 
       {/* <!--Copyright section--> */}
-      <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-        <span>© 2023 Copyright:</span>
-        <a
-          className="font-semibold text-neutral-600 dark:text-neutral-400"
-          href="https://tw-elements.com/"
-        > Cristian Tahay</a>
+      <div className="bg-gray-700 p-6 text-center text-white dark:bg-gray-700">
+        <span>© 2023 Copyright: <b>Cristian Tahay</b></span>
       </div>
     </footer>
   );

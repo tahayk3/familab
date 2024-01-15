@@ -6,10 +6,12 @@ import img4 from './4.png';
 import img5 from './5.png';
 import img6 from './6.png';
 import img7 from './7.jpg';
+import './gallery.css';
 
 export default function FooterCtaExample() {
     return (
-        <div className="relative overflow-hidden bg-white">
+       <div className='contenedor-gallery'>
+         <div className="relative overflow-hidden bg-white">
         <div className="pb-80 pt-16 sm:pb-40 sm:pt-24 lg:pb-48 lg:pt-40">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
@@ -92,5 +94,6 @@ export default function FooterCtaExample() {
           </div>
         </div>
       </div>
+       </div>
     );
 }

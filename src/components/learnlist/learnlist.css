@@ -59,7 +59,7 @@
   }
   
   .flip-card-front {
-    background-color: #00679a;
+    background-color: #00a5c0;
     color: white;
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@
   }
   
   .flip-card-back {
-    background-color: black;
+    background-color: #00679a;
     color: white;
     display: flex;
     align-items: center;
@@ -84,6 +84,7 @@
   @media (min-width: 100px) and (max-width: 680px) {
     .container-listlearn{
         display: contents;
+        background-color: #e6d6d1;
     }
     .title{
         color: black;
@@ -92,6 +93,11 @@
     .container-listlearn{
        display:contents;
        object-fit: fill;
+    }
+    .flip-card-front,
+    .flip-card-back {
+      height: 100%;
+
     }
     .lista{
         display:grid;
