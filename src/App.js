@@ -9,16 +9,18 @@ import Location from './components/location/location';
 import Information from './components/information/information';
 import Contact from './components/contact/contact';
 import Fade from "react-reveal";
+import Video from './components/video/video';
 
 const App = () => {
   return (
 
       <Routes>
         <Route
-          path="/build"
+          path="/"
           element={[
             <NavbarDefault />,
             <Welcome />,
+            <Video/>,
             <Learnlist />,
             <Fade right><Gallery/></Fade>,
             <Footer />

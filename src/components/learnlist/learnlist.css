@@ -1,19 +1,24 @@
 .container-listlearn{
-    background-color: #ff5325;
     display: flex;
-    margin-top: 250px;
-    border: solid 1px black;
-    margin-bottom: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(
+  90deg,
+  hsl(188deg 100% 38%) 4%,
+  hsl(194deg 44% 80%) 50%,
+  hsl(0deg 0% 100%) 87%
+);
 }
 
 .title{
     margin: 50px;
     font-size: 2.5rem;
-    color: white;
-    text-align: center;
+    color: rgb(0, 0, 0);
+    text-align:center;
     align-items: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
 }
 
 .signo{
@@ -23,7 +28,7 @@
 .lista {
     list-style: none;
     padding: 0;
-    background-color: #ff5325;
+   
     width: 75%;
     margin: auto;
     display: grid;
