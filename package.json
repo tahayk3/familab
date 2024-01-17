@@ -2,7 +2,7 @@
   "name": "familab",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://FamilabXela.github.io/famililab/", 
+  "homepage": "https://familabxela.github.io/famililab/build/", 
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@heroicons/react": "^2.1.1",
